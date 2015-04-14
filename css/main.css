@@ -889,3 +889,34 @@ img.author-img { margin-bottom: 0; }
 .navbar-right .navbar-brand {
   display: none !important;
 }
+
+textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], select[multiple="multiple"] {
+    box-sizing: border-box;
+    transition: border-color 0s ease 0s;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06) inset;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    width: 100%;
+}
+input[type="button"], input[type="reset"], input[type="submit"] {
+    -moz-appearance: none;
+    background-color: #477DCA;
+    border-radius: 3px;
+    border: medium none;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}

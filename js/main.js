@@ -119,8 +119,8 @@ $(function() {
         arrows: false,
         infinite: false,
         autoplay: true,
-        autoplaySpeed: 3000,
-        pauseOnHover: false
+        autoplaySpeed: 5000,
+        pauseOnHover: true
     });
 
     /* ==========================================================================
